@@ -1,0 +1,68 @@
+container{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+body{
+    background: linear-gradient( to left, black, rgba(0, 0, 0, 0.733));
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+div{
+    text-align: center;
+    color: white;
+}
+input{
+    text-align: center;
+    border-radius: 1rem;
+    height: 20px;
+    border: none;
+    background-image: url(https://thumbs.dreamstime.com/b/textura-clara-elegante-horizontal-do-ouro-para-o-fundo-e-projeto-104373305.jpg);
+    color: white;
+    font-weight: bolder;
+    text-transform:uppercase ;
+}
+
+button{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20190820/pngtree-horizontal-wood-pannels-banner-background-image_303374.jpg);
+    border: none;
+    padding: 0.3rem;
+    border-radius: 1rem;
+    width: 10%;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+.card{
+    box-shadow: 1px 1px 10px white;
+    width: 55%;
+    margin-top: 2rem;
+    text-align: center;
+    margin: auto;
+    border-radius: 1REM;
+    background: linear-gradient(rgba(255, 0, 0, 0.747), rgba(255, 166, 0, 0.76));
+}
+
+.card img{
+    width: 200px;
+    margin-top: 1rem;
+    border-radius: 6rem;
+}
+
+.card h1{
+    color: red;
+}
+
+.card p{
+    font-size: 30px;
+    color: wheat;
+    font-weight: bolder;
+}
